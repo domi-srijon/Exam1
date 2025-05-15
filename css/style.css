@@ -1,0 +1,152 @@
+/*------------------ fonts link ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*------------------ common css part start ---------------*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #243034 !important;
+}
+:root{
+    --inter:"Inter", sans-serif;
+    --text_color: #fff;
+    --band_color: #32b3c7;
+}
+/*------------------ common css part end ---------------*/
+/*------------------ navbar css part start ---------------*/
+.my_navbar{
+    margin-top: 35px;
+}
+.my_navbar .navbar-brand{
+    width: 130px;
+}
+.my_navbar ul li a{
+    padding: 12px 35px 12px 35px !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--text_color) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s all linear;
+}
+.my_navbar ul li:hover{
+    background: var(--band_color);
+    border-radius: 20px;
+}
+.my_navbar ul li:hover a{
+    color: #000000 !important;
+}
+/*------------------ navbar css part end ---------------*/
+/*------------------ banner css part start ---------------*/
+#banner{
+    padding-top: 196px;
+    position: relative;
+}
+.banner_image{
+    width: 1127px;
+    position: absolute;
+    top: 10%;
+}
+.row:nth-child(1){
+    justify-content: end;
+    align-items: center;
+}
+
+.banner_text h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--band_color);
+}
+.banner_text h2{
+    font-size: 155px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--text_color);
+}
+.banner_text p{
+    width: 508px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--text_color);
+    line-height: 30px;
+}
+.banner_button{
+    margin-top: 46px;
+}
+.banner_button a{
+    width: 455px;
+    height: 85px;
+    background: var(--band_color);
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--text_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.col-lg-7{
+    padding-top: 75px;
+    padding-right: 90px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.single_box h1{
+    margin-bottom: 33px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--text_color);
+}
+.single_box p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--text_color);
+    text-align: center;
+}
+.col-lg-5:nth-child(2){
+    padding-top: 119px;
+    padding-right: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link_icon{
+    width: 40px;
+    height: 40px;
+}
+/*------------------ banner css part end ---------------*/
+/*------------------ navbar css part start ---------------*/
+
+/*------------------ navbar css part end ---------------*/
+/*------------------ navbar css part start ---------------*/
+
+/*------------------ navbar css part end ---------------*/
